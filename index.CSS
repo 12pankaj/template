@@ -1,0 +1,411 @@
+html{
+	scroll-behavior: smooth;
+}  
+
+/* hader section start*/
+header
+{
+	background: url("image/banner.jpg");
+	background-size: cover;
+	height: 700px;
+	color: white;
+	}
+header p,i,li,a
+{
+	color: white;
+	text-decoration: none;
+}
+header ul li
+{
+	display: inline-block;
+	margin: 30px;
+
+}
+header p:hover{
+	color: cyan;
+}
+header .top
+{
+	display: inline-flex;
+	height: 5px;
+	margin-left: 30px;
+	font-size: 20;
+}
+header .menu ul
+{
+	display:inline-block ;
+	height: 70px;
+	margin-left: 10;
+}
+header  li a:hover{
+    color: #ff0157;
+        }
+header i:hover{
+	color: darkcyan;
+}
+header .top p{
+	position: relative;
+	left: 600px;
+	display: inline-block;
+	margin-left: 10px;
+}
+header .e{
+	position: relative;
+	top: 20px;
+	margin-left: 20px;
+
+}
+.par
+	p{
+		position: relative;
+	left: 100px;
+	top: 480px;
+	font-size: 40;
+		width: 0ch;
+		overflow:hidden;	
+		white-space:nowrap;
+		animation:text 5s steps(20) infinite alternate; 
+		border-right: 4px solid whitesmoke;
+		color: white;
+	}
+	@keyframes text{
+		0%{
+			width: 0ch;
+		}
+		50%{
+			width: 35ch;
+		}
+		}
+	}
+}
+header span p:hover{
+	color: fuchsia;
+}
+header img{
+	height: 50px;
+	width: 50px;
+}
+header .menu i{
+	position: relative;
+	left: 20px;
+}
+header a:hover{
+
+	color: #f0d8bc;
+}
+header button{
+	color: white;
+	background: brown;
+	border-radius: 40px;
+	position: relative;
+	left: 940px;
+	top: 380px;
+	height: 40px;
+	width: 160px;
+	font-size: 20;
+	
+}
+header .top h4{
+	position: relative;
+	bottom: 10px;
+}  
+
+/* h1 css */
+h1{
+	font-size: 40;
+	font-family: cursive;
+}
+
+/*  categories section start */
+.Categories div{
+	display: inline-flex;
+
+}
+.Categories h1,div h1{
+	text-align: center;
+
+}
+.Categories .bi h1{
+	position:relative;
+	top: 145px;
+	left: 250px;
+	font-size: 45;
+}
+.Categories .bi p{
+	position: relative;
+	top: 230px;
+	font-size: 22;
+	text-align: center;
+}
+.Categories .sc  h1{
+	position:relative;
+	top: 145px;
+	left: 250px;
+	font-size: 40;
+}
+.Categories .sc p{
+	position: relative;
+	top: 230px;
+	right: 40px;
+	font-size: 22;
+	text-align: center;
+}  
+
+/*  product section start */
+.Products div{
+	display: inline-block;
+	margin-left: 20px;
+
+	padding: 10px;
+}
+	
+.Products img:hover{
+	transform: rotatey(180deg);
+
+}
+.Products p{
+	font-size: 30;
+}
+.Products button{
+	color: white;
+	background: brown;
+	border-radius: 40px;
+	
+	height: 40px;
+	width: 160px;
+	font-size: 20;
+}  
+.Products button:hover{
+	background: ghostwhite;
+	color: darkred;
+}
+.Products i:hover{
+	background: ghostwhite;
+	color: darkred;
+	}
+.ya{
+	;
+}
+/* Brands section start*/
+.brands {
+	padding-top: 30px;
+}
+.brands div{
+	display: inline-block;
+}
+.brands img{
+	width: 230px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+}  
+
+/*  About section start  */
+.About div{
+	display: inline-block;
+	height: 250px;
+	width: 600px;
+	position: relative;
+	bottom: 20px;
+	padding-top: 30px;
+}
+.About h1{
+	font-size: 45;
+	position: relative;
+	bottom: 30px;
+}
+.About p{
+	font-size: 20;
+	position: relative;
+	bottom: 30px;
+	line-height: 1.4;
+	text-align: center;
+}
+.About img{
+	height: 300px;
+	width: 300px;
+	animation:img 8s infinite ;
+	}
+	@keyframes img{
+		0%{
+			transform: translate(0px);	
+		}
+		25%{
+			transform: translatex(1360px);
+			
+		}
+		40%{
+			
+			transform: rotatey(180deg);
+			
+		}
+
+}  
+
+/*  galler section start */
+.Gallery div{
+	display: inline-block;
+}
+.Gallery img{
+	height: 300px;
+	width: 400px;
+	margin: 15px;
+	border-radius: 10px;
+}  
+
+/*  video section start */
+.vedio div{
+	display: inline-block;
+	text-align: center;
+	font-size: 25;
+}
+.vedio div iframe{
+	height: 400px;
+	width: 600px;
+	margin: 10px;
+	padding: 10px;
+}
+.vedio div video{
+	height: 400px;
+	width: 600px;
+	margin: 10px;
+	padding: 10px;
+}  
+
+/*  testimonials section start */
+.Testimonials{
+	height: 360px;
+	text-align: center;
+}
+.Testimonials div{
+	display: inline-block;
+	width: 30%;
+	margin-left: 10px;
+	padding: 10px;
+}
+.Testimonials p{
+	font-size: 25;
+}
+.Testimonials h3{
+	font-size: 30;
+}
+.Testimonials h1{
+	font-size: 50;
+}  
+
+/*  contact section start */
+.Contact div{
+	display: inline-block;
+	width: 20%;
+	margin: 10px;
+	padding: 10px;
+	border-left: 2px solid whitesmoke;
+	text-align: center;
+}
+.Contact h4{
+	font-size: 26;
+}
+.Contact p{
+	font-size: 22;
+}
+.Contact i{
+	color: darkred;
+	font-size: 50;
+}
+.Contact .p{
+	position: relative;
+	bottom: 30px;
+}  
+
+/*  form section start */
+.form table{
+	align-items: center;
+	margin-left: 400px;
+	margin-top: 50px;
+}
+.form input{
+	height: 45px;
+	width: 330px;
+	margin: 10px;
+	border-radius: 20px 0PX 20PX 0PX;
+	padding: 10px;
+	background: ghostwhite;
+}
+.form textarea{
+	border-radius: 20px 0PX 20PX 0PX;
+	padding: 20px;
+	background: ghostwhite;
+}
+.bu input{
+
+	color: white;
+	background: brown;
+	border-radius: 40px;
+	font-size: 20;
+	width: 100px;
+}
+
+/* footer section start */
+
+footer{
+	background: black;
+	list-style-type: none;
+	margin-top: 20px;
+}
+footer ul li{
+	margin-top: 10px;
+}
+footer div{
+	display: inline-block;
+	color: white;
+	list-style-type: none;
+	width: 20%;
+	margin-left: 0px;
+	padding: 20px;
+}
+.contf{
+	font-size: 20;
+	position: relative;
+	bottom: 90px;
+	margin-left: 10px;
+	text-align: center;
+
+}
+.f{
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 22;
+}
+.ho{
+	position: relative;
+	bottom: 30px;
+}
+footer i{
+	color: darkred;
+}
+footer h4{
+	font-size: 20;
+	color: cyan;
+	position: relative;margin-bottom: 10px;margin-top: 10px;
+}
+.au {
+	position: relative;
+	left: 160px;
+	bottom: 20px;
+}
+footer .CON p{
+
+	position: relative;
+	top: 15px;
+	line-height: 1.5;
+	text-align: justify;
+}
+.ic {
+	position: relative;
+	bottom: 10px;
+
+}
+footer p{
+	color: white;
+	text-align: center;
+}
